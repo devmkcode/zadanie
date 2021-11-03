@@ -1,38 +1,34 @@
 .insurance {
   position: relative;
-  padding: 71px 20px 95px 20px;
-  @include min-laptop {
-    padding: 71px 0 95px 0;
-  }
+  padding: 20px;
   &__image {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
-    img {
-      object-fit: contain;
-    }
+    display: none;
   }
   h1 {
-    font-size: 63px;
-    line-height: 68px;
+    font-size: 33px;
+    line-height: 38px;
     color: #1c3e95;
+    margin-bottom: 20px;
   }
   h3 {
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 30px;
     margin-bottom: 24px;
     color: #1c3e95;
   }
   p {
     max-width: 792px;
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 20px;
     color: #161616;
   }
   &__btn {
     border-radius: 10px;
-    margin-top: 56px;
+    margin-top: 20px;
     display: block;
     width: 280px;
     height: 56px;
@@ -47,6 +43,29 @@
     transition: 0.3s;
     &:hover {
       background: #e95a1b;
+    }
+  }
+  @include min-laptop {
+    padding: 71px 0 95px 0;
+    h1 {
+      font-size: 63px;
+      line-height: 68px;
+    }
+    h3 {
+      font-size: 34px;
+      line-height: 40px;
+      margin-bottom: 24px;
+    }
+    p {
+      max-width: 792px;
+      font-size: 17px;
+      line-height: 28px;
+    }
+    &__image {
+      display: block;
+    }
+    &__btn {
+      margin-top: 56px;
     }
   }
 }
