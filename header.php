@@ -11,12 +11,14 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php endif; ?>
     <?php wp_head(); ?>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;&family=Quicksand:wght@700&display=swap" rel="stylesheet">
 </head> 
 
 <body>
     <nav class="menu">
-        <div class="menu__logo"></div>
+        <div class="menu__logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="logo">
+        </div>
+        <div class="menu__toggler"><i class="fas fa-bars"></i></div>
         <ul class="menu__list">
             <li class="menu__item">o nas</li>
             <li class="menu__item">oferta</li>
