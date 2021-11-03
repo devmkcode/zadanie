@@ -334,4 +334,69 @@ h5 {
 .header__form input[type="submit"]:hover {
   background: #e95a1b;
 }
+
+.insurance {
+  position: relative;
+  padding: 71px 20px 95px 20px;
+}
+
+@media (min-width: 1200px) {
+  .insurance {
+    padding: 71px 0 95px 0;
+  }
+}
+
+.insurance__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.insurance__image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.insurance h1 {
+  font-size: 63px;
+  line-height: 68px;
+  color: #1c3e95;
+}
+
+.insurance h3 {
+  font-size: 34px;
+  line-height: 40px;
+  margin-bottom: 24px;
+  color: #1c3e95;
+}
+
+.insurance p {
+  max-width: 792px;
+  font-size: 17px;
+  line-height: 28px;
+  color: #161616;
+}
+
+.insurance__btn {
+  border-radius: 10px;
+  margin-top: 56px;
+  display: block;
+  width: 280px;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  background: #fe7a22;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.insurance__btn:hover {
+  background: #e95a1b;
+}
 /*# sourceMappingURL=style.css.map */

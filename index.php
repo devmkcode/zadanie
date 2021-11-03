@@ -27,4 +27,14 @@
         </form>
     </div>
   </header>
+  <section class="insurance">
+    <div class="container">
+      <h1>Ubezpieczenia majątkowe</h1>
+      <h3>Co obejmują?</h3>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
+      <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+      <a href="#" class="insurance__btn">Zamów ubezpieczenie</a>
+    </div>
+    <img src="<?php echo get_template_directory_uri(); ?>/img/shutterstock_373266265.png" alt="insurance-image" class="insurance__image">
+  </section>
 <?php get_footer(); ?>
