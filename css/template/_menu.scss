@@ -64,16 +64,18 @@
     }
   }
   &__item {
-    font-size: 16px;
+    font-size: 18px;
     color: #1c3e95;
     font-weight: 500;
     cursor: pointer;
     transition: 0.2s;
+    margin-bottom: 10px;
     &:hover {
       color: #fe7a22;
     }
     @include min-laptop {
       font-size: 24px;
+      margin-bottom: 0;
     }
   }
 }

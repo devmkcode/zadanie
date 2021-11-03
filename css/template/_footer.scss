@@ -1,0 +1,36 @@
+.footer {
+  min-height: 315px;
+  background: #1c3e95;
+  padding: 60px 20px;
+  color: #fff;
+  @include min-laptop {
+    padding: 60px 0;
+  }
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    @include min-laptop {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      font-size: 16px;
+      margin-bottom: 10px;
+      &.active {
+        color: #fe7a22;
+      }
+    }
+  }
+  &__column {
+    h4 {
+      font-size: 20px;
+      margin-bottom: 18px;
+    }
+  }
+  .tel {
+    color: #fe7a22;
+  }
+}

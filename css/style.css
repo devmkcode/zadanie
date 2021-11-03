@@ -95,12 +95,13 @@
 }
 
 .menu__item {
-  font-size: 16px;
+  font-size: 18px;
   color: #1c3e95;
   font-weight: 500;
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  margin-bottom: 10px;
 }
 
 .menu__item:hover {
@@ -110,6 +111,7 @@
 @media (min-width: 1200px) {
   .menu__item {
     font-size: 24px;
+    margin-bottom: 0;
   }
 }
 
@@ -415,5 +417,55 @@ h5 {
   .insurance__btn {
     margin-top: 56px;
   }
+}
+
+.footer {
+  min-height: 315px;
+  background: #1c3e95;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    padding: 60px 0;
+  }
+}
+
+.footer__row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 30px;
+}
+
+@media (min-width: 1200px) {
+  .footer__row {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer ul li.active {
+  color: #fe7a22;
+}
+
+.footer__column h4 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.footer .tel {
+  color: #fe7a22;
 }
 /*# sourceMappingURL=style.css.map */

@@ -28,6 +28,5 @@
             <li class="menu__item">oddziały</li>
         </ul>
     </nav>
-</div>
-<main class="main__container">
+
 
