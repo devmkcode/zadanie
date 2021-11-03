@@ -1,0 +1,88 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 732px;
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &__caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 48px 0 64px 0;
+    background: rgba($color: #1c3e95, $alpha: 0.75);
+    h2 {
+      font-size: 52px;
+      line-height: 56px;
+      color: #fe7a22;
+    }
+    h3 {
+      font-size: 30px;
+      line-height: 36px;
+      color: #fff;
+    }
+  }
+  &__form {
+    position: absolute;
+    right: 0;
+    margin: 64px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 490px;
+    background: #fff;
+    padding: 40px;
+    h4 {
+      font-size: 24px;
+      line-height: 26px;
+      color: #1c3e95;
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      font-size: 17px;
+      font-weight: 500;
+      height: 48px;
+      border: 1px solid #979494;
+      margin-bottom: 12px;
+      padding: 0 16px;
+    }
+    div {
+      display: flex;
+    }
+    .post-code {
+      width: 146px;
+      margin-left: 16px;
+    }
+    .policy {
+      font-size: 13px;
+      line-height: 18px;
+      color: #161616;
+      font-weight: 300;
+      margin-left: 14px;
+      margin-bottom: 16px;
+    }
+    input[type="checkbox"] {
+      width: fit-content;
+      height: auto;
+      padding: 0;
+    }
+    input[type="submit"] {
+      width: 205px;
+      border-radius: 10px;
+      background: #fe7a22;
+      margin: 0 auto 3px auto;
+      font-size: 17px;
+      font-weight: 700;
+      font-family: "Quicksand", sans-serif;
+      color: #fff;
+      border: none;
+      display: block;
+      cursor: pointer;
+    }
+  }
+}
